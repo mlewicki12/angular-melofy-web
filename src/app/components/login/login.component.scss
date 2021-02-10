@@ -1,0 +1,9 @@
+
+@import "~src/scss/_variables";
+
+.login {
+  color: $primary-color;
+  background-color: $secondary-color;
+  border: unset;
+  padding: 0.5rem;
+}

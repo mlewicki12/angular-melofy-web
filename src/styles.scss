@@ -5,7 +5,7 @@ body {
   padding: 0;
   margin: 0;
 
-  background-color: $main-color;
+  background-color: $primary-color;
 }
 
 .text {
@@ -13,5 +13,5 @@ body {
   padding: 0.5rem;
 
   color: $secondary-color;
-  font-family: "Raleway", sans-serif;
+  font-family: $secondary-font;
 }
