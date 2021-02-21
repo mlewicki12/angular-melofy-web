@@ -299,7 +299,7 @@ export class ExplicitContentSettings {
 }
 
 export class PublicUser {
-  display_name!   : string;
+  displayName!   : string;
   external_urls!  : any;
   followers!      : Followers;
   href!           : string;
@@ -311,10 +311,10 @@ export class PublicUser {
 
 export class PrivateUser {
   country!          : string;
-  display_name!     : string;
+  displayName!     : string;
   email!            : string;
-  explicit_content! : ExplicitContentSettings;
-  externals_urls!   : any;
+  explicitContent! : ExplicitContentSettings;
+  externalUrls!   : any;
   followers!        : Followers;
   href!             : string;
   id!               : string;
