@@ -1,6 +1,6 @@
 
 import { Component, OnInit } from '@angular/core';
-import { SpotifyService } from 'src/app/services/spotify.service';
+import { API_HOME } from '../../../helpers/variables';
 
 @Component({
   selector: 'melofy-login',
@@ -8,14 +8,10 @@ import { SpotifyService } from 'src/app/services/spotify.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
+  public apiHome = API_HOME;
 
-  constructor(private spotifyService: SpotifyService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
-
-  handleSpotifyLogin(): void {
-    this.spotifyService.handleLogin();
-  } 
-
 }
